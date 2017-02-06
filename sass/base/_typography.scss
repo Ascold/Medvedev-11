@@ -1,0 +1,367 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  nav {
+    ul.nav {
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase;
+      a {
+        color: #111111 !important;
+      }
+    }
+  }
+}
+
+.section-intro {
+  .intro-title {
+    color: #ffffff;
+    font-weight: 400;
+    h1 {
+      font-family: $font-stack;
+      font-size: 65px;
+    }
+    div {
+      font-size: 31px;
+    }
+  }
+  .button-contact-me {
+    a {
+      font-family: $font-stack;
+      font-size: 16px;
+      font-weight: 400;
+      color: #111111;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.section-about-us {
+  .container-wrap {
+    color: #111111;
+    .block-about-us {
+      h2 {
+        font-size: 31px;
+        font-weight: 400;
+        font-family: $font-stack;
+      }
+      .about-us-desc {
+        color: #666666;
+        font-family: $font-stack;
+        font-size: 21px;
+        font-weight: 400;
+        word-spacing: 4px;
+      }
+    }
+    .block-history-expertize {
+      color: #111111;
+      .block-history {
+        & > div {
+          font-size: 21px;
+          font-weight: 400;
+          font-family: $font-stack;
+        }
+        ul {
+          li {
+            div:first-child {
+              font-size: 21px;
+              font-weight: 700;
+            }
+            div:last-child {
+              font-size: 16px;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+      .block-expertize {
+        div:first-child {
+          font-family: $font-stack;
+          font-size: 21px;
+          font-weight: 400;
+        }
+        div:last-child {
+          color: #666666;
+          font-size: 14px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+.section-practis-area {
+  .container-wrap {
+    color: #ffffff;
+    .block-practis-area {
+      h2 {
+        font-size: 31px;
+        font-weight: 400;
+        font-family: $font-stack;
+      }
+      .practis-area-desc {
+        color: #b9b9b9;
+        font-family: $font-stack;
+        font-size: 21px;
+        font-weight: 400;
+        word-spacing: 4px;
+      }
+    }
+    .practis-area-content {
+      h3 {
+        font-family: $font-stack;
+        font-size: 21px;
+        font-weight: 400;
+      }
+      .practis-area-content-desc {
+        font-size: 14px;
+        font-weight: 400;
+      }
+
+    }
+  }
+}
+
+.section-meet-our-attorney {
+  .container-wrap {
+    color: #111111;
+    .block-meet-our-attorney {
+      h2 {
+        font-size: 31px;
+        font-weight: 400;
+        font-family: $font-stack;
+      }
+      .meet-our-attorney-desc {
+        color: #666666;
+        font-family: $font-stack;
+        font-size: 21px;
+        font-weight: 400;
+        word-spacing: 4px;
+      }
+    }
+    .photos-meet-our-attorney {
+      font-weight: 400;
+      .photos-title {
+        font-size: 21px;
+        font-family: $font-stack;
+      }
+      .photos-desc {
+        color: #666666;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.section-our-clients-say {
+  .container-wrap {
+    color: #ffffff;
+    .block-our-clients-say {
+      h2 {
+        font-size: 31px;
+        font-weight: 400;
+        font-family: $font-stack;
+      }
+      .our-clients-say-desc {
+        color: #b9b9b9;
+        font-family: $font-stack;
+        font-size: 21px;
+        font-weight: 400;
+        word-spacing: 4px;
+      }
+    }
+    .block-slider {
+      .slider-desc {
+        .client-comment {
+          font-size: 14px;
+          font-weight: 400;
+          word-spacing: 2px;
+        }
+        .client {
+          font-size: 21px;
+          font-family: $font-stack;
+        }
+        .client-company {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+.section-recent-publications {
+  .container-wrap {
+    color: #111111;
+    .block-recent-publications {
+      h2 {
+        font-size: 31px;
+        font-weight: 400;
+        font-family: $font-stack;
+      }
+      .recent-publications-desc {
+        color: #666666;
+        font-family: $font-stack;
+        font-size: 21px;
+        font-weight: 400;
+        word-spacing: 4px;
+      }
+    }
+    .articles-wrap {
+      .articles-inner {
+        .article-title {
+          font-family: $font-stack;
+          font-size: 21px;
+          font-weight: 400;
+        }
+        .article-signature {
+          .article-author {
+            font-size: 16px;
+            font-weight: 400;
+            span {
+              font-style: italic;
+              color: #666666;
+            }
+          }
+          .article-date {
+            color: #666666;
+            font-size: 16px;
+            font-style: italic;
+          }
+        }
+        .article-desc {
+          color: #666666;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 31px;
+        }
+        .comments-wrap {
+          font-size: 16px;
+          font-weight: 400;
+          a {
+            color: #111111;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.section-faq {
+  .container-wrap {
+    color: #ffffff;
+    .block-faq {
+      h2 {
+        font-size: 31px;
+        font-weight: 400;
+        font-family: $font-stack;
+      }
+      .faq-desc {
+        color: #b9b9b9;
+        font-family: $font-stack;
+        font-size: 21px;
+        font-weight: 400;
+        word-spacing: 4px;
+      }
+    }
+    .faq-wrap {
+      ul {
+        li {
+          font-size: 14px;
+          font-weight: 700;
+          &:hover,
+          &:active {
+            color: #e8bf5d;
+            i {
+              color: #ffffff;
+            }
+          }
+        }
+      }
+      .faq-answer {
+        color: #111111;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 31px;
+        word-spacing: 3px;
+      }
+    }
+  }
+}
+
+.section-contact {
+  .container-wrap {
+    color: #111111;
+    .block-contact {
+      h2 {
+        font-size: 31px;
+        font-weight: 400;
+        font-family: $font-stack;
+      }
+      .contact-desc {
+        color: #666666;
+        font-family: $font-stack;
+        font-size: 21px;
+        font-weight: 400;
+        word-spacing: 4px;
+      }
+    }
+    .form {
+      .button-send-message {
+        color: #111111;
+        font-family: $font-stack;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+::-webkit-input-placeholder {
+  color: #b9b9b9;
+  font-size: 14px;
+  font-style: italic;
+}
+
+:-moz-placeholder {
+  color: #b9b9b9;
+  font-size: 14px;
+  font-style: italic;
+}
+
+:-ms-input-placeholder {
+  color: #b9b9b9;
+  font-size: 14px;
+  font-style: italic;
+}
+
+footer {
+  .copyright {
+    &>div {
+      font-size: 16px;
+      font-weight: 400;
+      color: #ffffff;
+      span:first-child {
+        color: #b5b5b5;
+        font-family: $font-stack;
+      }
+      span:nth-child(2) {
+        color: #b5b5b5;
+      }
+    }
+  }
+  nav {
+    ul {
+      li {
+        i {
+          color: #fbfbfb;
+        }
+      }
+    }
+  }
+}

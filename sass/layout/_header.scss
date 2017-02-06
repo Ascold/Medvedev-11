@@ -1,0 +1,25 @@
+.navbar {
+  padding: 33px 0 8px;
+  border: none;
+  background-color: transparent;
+}
+
+ul.nav {
+  li {
+    padding-left: 11px;
+    padding-right: 11px;
+    a {
+      border-bottom: 5px solid transparent;
+      padding: 10px;
+      &:hover {
+        border-bottom: 5px solid #e8bf5d;
+        background: transparent;
+      }
+    }
+  }
+}
+
+.navbar-collapse.in,
+.collapsing {
+  text-align: left;
+}
